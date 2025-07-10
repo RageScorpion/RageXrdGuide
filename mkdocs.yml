@@ -1,0 +1,86 @@
+site_name: Rage Xrd Guide
+
+
+markdown_extensions:
+  - attr_list # Often useful for CSS classes in Markdown
+  - md_in_html # Allows Markdown inside HTML blocks
+  # Add this line specifically for macros to work inside Markdown files
+  - pymdownx.superfences # If you use code blocks with highlighting
+  - pymdownx.highlight # Also for code highlighting
+  - pymdownx.tabbed: # This line is crucial for tabs
+      alternate_style: true # Optional: Makes tabs look more like your example
+  - attr_list
+
+
+
+
+theme:
+  name: material
+  scheme_color: slate
+  features:
+    - navigation.tabs  # Keep main sections in top bar
+    - navigation.tabs.sticky  # Keep tabs visible while scrolling
+    - navigation.top  # Ensures tabs work properly
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - toc.integrate
+    - header.autohide
+    - content.code.copy
+    - content.action.view
+    - content.action.edit
+    - content.tooltips
+    - content.code.annotate
+    - user.color-mode  
+    - header.tools
+
+  palette:
+      
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black  
+      accent: blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+plugins:
+    - search
+    - macros
+
+
+
+nav:
+  - Home: index.md
+  - Combos:  # Keep Combos as a tab, but also inside the sidebar
+      - Standard Combos: combos/pages/standard_combos/standard.md
+      - PK List: combos/pages/pk_list/pk_list.md  
+      - Character Combos:
+          - Johnny: combos/pages/johnny/johnny.md
+          - Elphelt: combos/pages/elphelt/elphelt.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RageScorpion
+  generator: false  # Hides "Made with Material for MkDocs" footer
+
+repo_url: https://github.com/RageScorpion//notes
+repo_name: GitHub  # This sets the text next to the icon
+edit_uri: ""
+
+extra_css:
+  - navigation.css
+
+extra_javascript:
+  - javascripts/navitoggle.js
+  - combos/javascripts/combotabs.js

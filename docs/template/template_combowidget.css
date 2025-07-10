@@ -1,0 +1,218 @@
+
+
+/* Adjust main content area padding if necessary to give space for widgets */
+.md-content {
+    padding-left: 20px; /* Example adjustment */
+    padding-right: 20px; /* Example adjustment */
+}
+
+
+/* --- Midscreen BnBs Heading --- */
+.midscreen-bnbs-heading h2 {
+    color: #eee;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.6em;
+    padding: 10px 20px 5px 20px;
+    background-color: #282c34;
+    border: 1px solid #444;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+}
+
+/* --- Tab Buttons --- */
+.tab-buttons {
+    display: flex;
+    margin-bottom: 0;
+    background-color: #282c34;
+    border: 1px solid #444;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.2s ease-in-out;
+    font-size: 1em;
+    color: #bbb;
+    position: relative;
+    top: 1px;
+    font-weight: bold; /* Make tab labels bold */
+}
+
+.tab-button:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tab-button.active {
+    color: #61dafb;
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #61dafb;
+}
+
+/* --- Combo Widget Container --- */
+.combo-widget {
+    background-color: #282c34;
+    border: 1px solid #444;
+    border-top: none; /* Connects to tabs */
+    border-radius: 0 0 8px 8px; /* Round bottom corners */
+    padding: 20px; /* General padding for the content area */
+    margin-bottom: 20px; /* Space between multiple combo-widgets if present */
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* --- Specific Combo Widget Elements --- */
+
+.combo-widget .main- {
+    /* If this is an empty div for layout, you might not need specific styles unless for spacing */
+    margin-bottom: 15px; /* Space below if it acts as a top margin */
+}
+
+.combo-widget .combo-header {
+    display: flex; /* Allows inline elements to sit side-by-side */
+    justify-content: space-between; /* Pushes diff tag to the right */
+    align-items: center; /* Vertically centers items */
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3a3a3a; /* Separator for header */
+}
+
+.combo-widget .combo-header h3 {
+    margin: 0;
+    color: #61dafb; /* Accent color for combo name */
+    font-size: 1.3em;
+}
+
+.combo-widget .combo-header h3 small {
+    color: #bbb; /* Lighter color for "Corner only" */
+    font-size: 0.7em;
+}
+
+/* Difficulty Tags */
+.combo-widget .diff-Very-Hard,
+.combo-widget .diff-Hard,
+.combo-widget .diff-Extreme,
+.combo-widget .diff-Medium,
+.combo-widget .diff-Easy, 
+.combo-widget .diff-Very-Easy {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.combo-widget .diff-Very-Hard {
+    background-color: #f3880e; /* Red */
+}
+.combo-widget .diff-Hard {
+    background-color: #c8d14a; /* Orange */
+}
+.combo-widget .diff-Extreme {
+    background-color: #f711eb; /* Purple */
+}
+.combo-widget .diff-Medium {
+    background-color: #27611f; /* Blue */
+}
+.combo-widget .diff-Medium-Hard {
+    background-color: #63e651; /* Blue */
+}
+.combo-widget .diff-Easy {
+    background-color: #2729c0; /* Green */
+}
+.combo-widget .diff-Very-Easy {
+    background-color: #5be0e0; /* Yellow */
+}   
+
+.combo-widget .combo-route {
+    background-color: #1e2126; /* Slightly darker background for code */
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-family: 'Cascadia Code', 'Fira Code', monospace; /* Monospace font for code */
+    overflow-x: auto; /* Allow horizontal scrolling for long routes */
+    white-space: nowrap; /* Keep it on one line */
+}
+
+.combo-widget .combo-route code {
+    color: #ddd; /* Light color for route text */
+}
+
+
+
+.move-S { color: #4ade80; }
+.move-HS { color: #e67e83; }
+.move-D { color: #f17612; }
+.move-K { color: #75baf3; }
+.move-P { color: #e78be0; }
+.move-follow { color: #ececec; }
+
+
+
+.combo-widget .combo-body-layout {
+    display: flex; /* Use flexbox for side-by-side layout */
+    gap: 20px; /* Space between text and video */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.combo-widget .combo-text-details {
+    flex: 1; /* Allow text to take up available space */
+    min-width: 250px; /* Minimum width before wrapping */
+}
+
+.combo-widget .combo-text-details p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #ddd; /* Slightly lighter text for readability */
+}
+
+.combo-widget .combo-text-details p small {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.combo-widget .video-wrapper {
+    flex-shrink: 0; /* Prevent video from shrinking */
+    width: 280px; /* Fixed width for the iframe, adjust as needed */
+    max-width: 100%; /* Ensure it doesn't overflow on small screens */
+    /* Add responsiveness for video if needed later */
+}
+
+.combo-widget .video-wrapper iframe {
+    width: 100%; /* Make iframe fill its container */
+    height: 180px; /* Adjust height as needed, or use aspect ratio trick */
+    border-radius: 6px;
+}
+
+/* --- Tab Content (now just a container for combo-widgets) --- */
+.tab-content {
+    display: none;
+    /* Remove all previous styling related to borders/background from here,
+       as .combo-widget now handles that. */
+    /* This div just acts as a display:block/none toggle */
+}
+
+.tab-content.active {
+    display: block;
+}
+
