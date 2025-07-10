@@ -1,5 +1,5 @@
 site_name: Rage Xrd Guide
-site_url: https://RageScorpion.github.io/RageScorpionXrdGuide/
+site_url: https://ragescorpion.github.io/RageScorpionXrdGuide/
 
 markdown_extensions:
   - attr_list # Often useful for CSS classes in Markdown
