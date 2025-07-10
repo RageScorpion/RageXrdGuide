@@ -1,5 +1,5 @@
 site_name: Rage Xrd Guide
-
+site_url: https://RageScorpion.github.io/RageScorpionXrdGuide/
 
 markdown_extensions:
   - attr_list # Often useful for CSS classes in Markdown
@@ -74,7 +74,7 @@ extra:
       link: https://github.com/RageScorpion
   generator: false  # Hides "Made with Material for MkDocs" footer
 
-repo_url: https://github.com/RageScorpion//notes
+repo_url: https://github.com/RageScorpion/RageScorpionXrdGuide
 repo_name: GitHub  # This sets the text next to the icon
 edit_uri: ""
 
