@@ -8,7 +8,7 @@ markdown_extensions:
   - pymdownx.superfences # If you use code blocks with highlighting
   - pymdownx.highlight # Also for code highlighting
   - pymdownx.tabbed: # This line is crucial for tabs
-      alternate_style: true # Optional: Makes tabs look more like your example
+      alternate_style: true 
   - attr_list
 
 
@@ -80,6 +80,7 @@ edit_uri: ""
 
 extra_css:
   - navigation.css
+
 
 extra_javascript:
   - javascripts/navitoggle.js
