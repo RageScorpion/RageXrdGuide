@@ -16,3 +16,26 @@
     padding: 12px 16px;
 }
 
+/* Make the primary navigation sidebar wider */
+.md-sidebar--primary {
+  width: 250px; /* Adjust this to your desired navigation width */
+}
+
+/* Adjust the main content area to compensate and keep it centered */
+.md-main__inner.md-grid {
+  /* This targets the specific grid for the main content */
+  max-width: 1700px; /* Adjust this to your desired content maximum width */
+  margin-left: auto; /* Center the content if max-width is less than available space */
+  margin-right: auto; /* Center the content if max-width is less than available space */
+}
+
+/* Adjust the table of contents sidebar if it's also affected */
+.md-sidebar--secondary {
+  /* This is the right-hand sidebar for table of contents */
+  width: 280px; /* Adjust as needed, ensure it fits */
+}
+
+/* Compensate for the right sidebar if you've made it wider as well */
+.md-main__inner {
+  padding-right: 300px; /* Should be slightly more than the md-sidebar--secondary width */
+}

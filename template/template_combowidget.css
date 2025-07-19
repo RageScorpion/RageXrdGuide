@@ -113,7 +113,9 @@
 .combo-widget .diff-Extreme,
 .combo-widget .diff-Medium,
 .combo-widget .diff-Easy, 
-.combo-widget .diff-Very-Easy {
+.combo-widget .diff-Very-Easy,
+.combo-widget .diff-Medium-Hard
+ {
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 0.8em;
@@ -134,7 +136,7 @@
     background-color: #27611f; /* Blue */
 }
 .combo-widget .diff-Medium-Hard {
-    background-color: #63e651; /* Blue */
+    background-color: #7ee271; /* Blue */
 }
 .combo-widget .diff-Easy {
     background-color: #2729c0; /* Green */
@@ -161,7 +163,7 @@
 
 .move-S { color: #4ade80; }
 .move-HS { color: #e67e83; }
-.move-D { color: #f17612; }
+.move-D { color: #fa9a4c; }
 .move-K { color: #75baf3; }
 .move-P { color: #e78be0; }
 .move-follow { color: #ececec; }
@@ -191,6 +193,7 @@
     color: #aaa;
 }
 
+/* Video section*/
 .combo-widget .video-wrapper {
     flex-shrink: 0; /* Prevent video from shrinking */
     width: 280px; /* Fixed width for the iframe, adjust as needed */
@@ -201,7 +204,59 @@
 .combo-widget .video-wrapper iframe {
     width: 100%; /* Make iframe fill its container */
     height: 180px; /* Adjust height as needed, or use aspect ratio trick */
-    border-radius: 6px;
+    border-radius: 1x;
+}
+
+/* Style for the video source buttons container */
+.combo-widget .video-controls {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 10px; /* Space below buttons */
+}
+
+/* Style for individual video source buttons */
+.combo-widget .video-source-button {
+    background-color: var(--md-sys-color-surface-variant); /* Muted background */
+    color: var(--md-sys-color-on-surface-variant); /* Muted text */
+    border: 1px solid var(--md-sys-color-outline);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.combo-widget .video-source-button:hover {
+    background-color: var(--md-sys-color-surface-hover);
+    color: var(--md-sys-color-on-surface);
+}
+
+.combo-widget .video-source-button.active {
+    background-color: var(--md-sys-color-primary); /* Active primary color */
+    color: var(--md-sys-color-on-primary); /* Text on primary color */
+    font-weight: bold;
+    border-color: var(--md-sys-color-primary);
+}
+
+/* Video containers - control visibility */
+.combo-widget .video-container {
+    display: none; /* Hide by default */
+    border-radius: 6px; /* Match iframe border-radius */
+    overflow: hidden; /* Ensure content respects border-radius */
+}
+
+.combo-widget .video-container.active {
+    display: block; /* Show active container */
+}
+
+/* Ensure iframes and video tags fill their containers */
+.combo-widget .video-container iframe,
+.combo-widget .video-container video {
+    width: 100%;
+    height: 180px; /* Explicit height */
+    display: block; /* Remove extra space below iframe/video */
+    border: none; /* No border for the iframe itself */
 }
 
 /* --- Tab Content (now just a container for combo-widgets) --- */
@@ -216,3 +271,101 @@
     display: block;
 }
 
+
+.custom-toc-container {
+    position: fixed;
+    top: 80px; /* Adjust to clear your main header */
+    right: 80px;
+    width: 250px; /* Adjust width as desired */
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: calc(100vh - 100px); /* Limit height with some top/bottom margin */
+    overflow-y: auto; /* Add scrollbar if content overflows */
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+/* Hide on smaller screens */
+@media (max-width: 1200px) {
+    .custom-toc-container {
+        display: none;
+    }
+}
+
+.custom-toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-toc-list li {
+    margin-bottom: 3px;
+}
+
+.custom-toc-list li a {
+    text-decoration: none;
+    display: block;
+    padding: 2px 5px;
+    border-radius: 3px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.custom-toc-list li a:hover {
+    background-color: #e0e0e0;
+    color: #007bff;
+}
+
+/* Styling for different heading levels */
+.custom-toc-list li.toc-level-2 {
+    font-weight: bold;
+    margin-top: 10px; /* Space before major sections */
+}
+
+.custom-toc-list li.toc-level-3 {
+    padding-left: 15px; /* Indent for sub-sections */
+    font-size: 0.95em;
+    color: #555;
+}
+
+
+/* Layout Adjustment to Prevent Overlap */
+/* Find the CORRECT class for your main content wrapper in your theme */
+.wy-nav-content-wrap { /* Example for ReadTheDocs theme */
+    margin-right: 320px; /* TOC width (280px) + desired right margin (40px) */
+    box-sizing: border-box;
+}
+
+/* If using Material theme, it might be: */
+/* .md-content {
+    margin-right: 320px;
+    box-sizing: border-box;
+} */
+
+/* Generic fallback, but be specific to your theme for best results */
+/* main.md-content {
+    padding-right: 320px;
+    box-sizing: border-box;
+} */
+
+/* Adjust scroll-margin-top for fixed header offset */
+h2, h3, h4, h5, h6 {
+    scroll-margin-top: 80px; /* Must match the 'top' value of your fixed nav bar or TOC */
+}
+
+.toc-child-list {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 5px 15px; /* Indent children */
+    overflow: hidden; /* <--- CRITICAL: Make sure overflow is hidden */
+    max-height: 0;   /* <--- CRITICAL: Hidden when collapsed */
+    opacity: 0;      /* <--- CRITICAL: Hidden when collapsed */
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out; /* <--- CRITICAL: Transition properties */
+}
+
+/* State when parent is toggled in */
+.toc-item-parent.is-toggled-in .toc-child-list {
+    max-height: 1000px; /* <--- CRITICAL: Large enough to show all children */
+    opacity: 1;      /* <--- CRITICAL: Fully visible when expanded */
+}
