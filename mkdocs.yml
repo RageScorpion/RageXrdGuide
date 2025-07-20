@@ -1,5 +1,4 @@
 site_name: Rage Xrd Guide
-site_url: https://ragescorpion.github.io/RageScorpionXrdGuide/
 
 markdown_extensions:
   - attr_list # Often useful for CSS classes in Markdown
@@ -8,7 +7,6 @@ markdown_extensions:
   - pymdownx.superfences # If you use code blocks with highlighting
   - pymdownx.highlight # Also for code highlighting
   - pymdownx.tabbed: # This line is crucial for tabs
-      alternate_style: true 
   - attr_list
 
 
@@ -46,14 +44,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: black  
-      accent: blue
-      toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
-
 plugins:
     - search
     - macros
@@ -63,25 +53,31 @@ plugins:
 nav:
   - Home: index.md
   - Combos:  # Keep Combos as a tab, but also inside the sidebar
-      - Standard Combos: combos/pages/standard_combos/standard.md
-      - PK List: combos/pages/pk_list/pk_list.md  
-      - Character Combos:
-          - Johnny: combos/pages/johnny/johnny.md
-          - Elphelt: combos/pages/elphelt/elphelt.md
+      - Standard Combos: standard.md
+      - PK List: pk_list.md  
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/RageScorpion
   generator: false  # Hides "Made with Material for MkDocs" footer
 
-repo_url: https://github.com/RageScorpion/RageScorpionXrdGuide
+repo_url: https://github.com/RageScorpion/RageXrdGuide
 repo_name: GitHub  # This sets the text next to the icon
 edit_uri: ""
 
 extra_css:
   - navigation.css
+  - /template/template_combowidget.css
+  - /characters.css
+  - /pktable.css
 
 
 extra_javascript:
   - javascripts/navitoggle.js
-  - combos/javascripts/combotabs.js
+  - javascripts/combowidget.js
+  - javascripts/tableloader.js  
+  - javascripts/tabletoggle.js
+
+remote_name: origin 
+remote_branch: gh-pages 
