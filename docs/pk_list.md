@@ -49,8 +49,701 @@ class: combosindex
         <div class="table-scroll-content"></div>
     </div>
 </div>
+<div class="table-wrapper">
+ <div class="table-container">
 
-{% include "/RageXrdGuide/pktable.html" %}
+   <style>
+.character-name {
+cursor: pointer;
+color: green;
+text-decoration: underline;
+}
+
+.character-name:hover {
+color: blue;
+}
+        
+.hidden {
+display: none;
+}
+
+</style>
+
+
+ <table class="combo-table">
+  <thead>
+
+<tr>
+            <th>Character</th>
+            <th>CARDED GEKI</th>
+            <th>IAD GEKI</th>
+            <th>CH PUFF</th>
+            <th>GRAB RRC</th>
+            <th>f.S CH</th>
+            <th>2D RRC</th>
+            <th>Super Puff</th>
+            <th>IAD DP</th>
+            <th>j.D Low</th>
+
+</tr>
+    </thead>
+    <tbody>
+<tr id="Answer">
+            <td>Answer</td>
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H </span><hr>
+    <span class="puff-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">6P(1) > 2P > 2H</span><hr>
+    <span class="puff-puff">2PP > 2H(1)</span><hr>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="no-puff">c.S > 2H</span><hr>
+    <span class="no-puff">2S > 2H</span></td>
+<td>                                                                          
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">j.PKS > 2H</span><hr>
+    <span class="puff-puff">j.PPKS > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">5K > 2h</span><hr>
+    <span class="puff-puff">2PP > 2H</span><hr>
+    <span class="puff-puff">6P(1) > 2P > 2H</span>
+</td>
+<td>      
+    <span class="no-puff">5P > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H / (1)</span>
+</td>
+<td>
+    <span class="puff-puff">2H(1)</span>
+</td>
+</tr>
+        
+        
+
+
+<tr id="Axl">
+            <td>Axl</td>
+
+<td>
+    <span class="puff-puff">2PP > 2H</span><hr>
+    <span class="puff-puff">2K > 2H</span><hr>
+    <span class="puff-puff">6K(1) > 2H</span><hr>
+    <span class="puff-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2PP > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">6K(1) > 2H</span>
+
+</td>
+<td>    
+    <span class="puff-puff">2PP > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">6K(1) > 2H</span><hr>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">c.S > 2H</span>
+</td>
+<td>  
+    <span class="puff-puff">c.S 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="puff-puff">2K > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">j.PKS > 2H</span><hr>
+    <span class="puff-puff">j.PPKS > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">2K > 2H</span><hr>
+    <span class="puff-puff">6K(1) > 2H</span><hr>
+    <span class="puff-puff">6P(1) > 2P > 2H</span><hr>
+    <span class="puff-puff">5K > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5P > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2P > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2H(1)</span>
+</td>
+</tr>
+<tr id="Baiken">
+          <td>Baiken</td>
+
+<td>
+    <span class="puff-puff">c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">2P > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2PP > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2K > 2H dl</span><hr>
+    <span class="puff-puff">dl 2P > 2H</span>  
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5K > c.S</span>
+</td>
+<td>
+    <span class="no-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+</tr>
+<tr id="Bedman">
+    <td>Bedman</td>
+
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2S > 2H(1)</span><hr>
+    <span class="puff-puff">2PP > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">PK</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H</span><hr>
+    <span class="puff-puff">j.PKS > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">2PP > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5P > c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2H(1)</span>
+</td>
+</tr>
+<tr id="Chipp">
+    <td>Chipp</td>
+
+<td>
+    <span class="puff-puff">2PP > 2H</span><hr>
+    <span class="puff-puff">6P(1) > 2H(1)</span><hr>
+    <span class="puff-puff">5K > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2PP > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2PP > 2H</span><hr>
+    <span class="puff-puff">2S > 5K > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H</span><hr>
+    <span class="puff-puff">j.PKS > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2PP > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">5P > c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2H(1)</span>
+</td>
+</tr>
+<tr id="Dizzy">
+    <td>Dizzy</td>
+
+<td>
+    <span class="puff-puff">6P(1) > 2P > 2H(1)</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+<td>
+    <span class="puff-puff">2P > 2H(1)</span>
+</td>
+<td>
+    <span class="inconsistent">j.PKS > 2H(1)</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+</tr>
+<tr id="Elphelt">
+    <td>Elphelt</td>
+<td>
+    <span class="puff-puff">2K > 5K > 2H(1)</span><hr>
+    <span class="no-puff">2S > 2H(1)</span><hr>
+    <span class="no-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="no-puff">5K > 6P(1) > 2H(1)</span><hr>
+    <span class="no-puff">2S > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="no-puff">c.S > 2H</span><hr>
+    <span class="no-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="no-puff">j.PPKS > 2S dl</span>
+</td>
+<td>
+    <span class="no-puff">5K > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5P > c.S > 2H(1)</span>
+</td>
+<td>    
+    <span class="no-puff">2S > 2H(1)</span><hr>
+    <span class="no-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="no-puff">2H(1)</span>
+</td>
+</tr>
+<tr id="Faust">
+    <td>Faust</td>
+<td>
+    <span class="puff-puff">5K > 2H / (1)</span><hr>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="no-puff">c.S > f.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > f.S > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 5K > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H / (1)</span><hr>
+    <span class="puff-puff">c.S > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H / (1)</span>
+</td>
+<td>
+    <span class="no-puff">5P > 6P(1) > 5H(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2H(1)</span>
+</td>
+</tr>
+<tr id="I-No">
+    <td>I-No</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="no-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="no-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="no-puff">c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5K > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H(1)</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+</tr>
+<tr id="Jack-O">
+    <td>Jack-O</td>
+<td>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="puff-puff">2P > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="puff-puff">2P > 2H(1)</span><hr>
+    <span class="puff-puff">5K > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="no-puff">5K > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="puff-puff">dl 2P > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5K > c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H(1)</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+</tr>
+<tr id="Jam"> 
+    <td>Jam</td>
+<td>
+    <span class="puff-puff">5K > 2H(1) k*</span><hr>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">2PP > 2H(1) dl</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2K > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span><hr>
+    <span class="puff-puff">2P > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5P > c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H(1)</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+</tr>
+<tr id="Johnny">
+    <td>Johnny</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">6K(1) > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">2PP > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">2PP > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">j.PKS > 2H(1)</span><hr>
+    <span class="puff-puff">j.PPKS >2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">2PP > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2H</span>
+</td>
+<td>
+    <span class="no-puff">5K > 5P > 2S > 2H(1)</span><hr>
+    <span class="no-puff">5K > 5P > c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5K > 2H</span><hr>
+    <span class="no-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2H(1)</span>
+</td>
+</tr>
+<tr id="Kum">
+    <td>Kum</td>
+<td>
+    <span class="puff-puff">2P > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5P > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > f.S > 2H(1)</span><hr>
+    <span class="puff-puff">6K > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">PK</span>
+</td>
+<td>
+    <span class="no-puff">j.PKS > 6P(1) > 2H(1) dl</span><hr>
+</td>
+<td>
+    <span class="puff-puff">6P > 2H(1)</span><hr>
+    <span class="puff-puff">2P > c.S > 2H(1)</span><hr>
+    <span class="puff-puff">5K > c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5P > 6P(1) > 5H(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">c.S > f.S > 2H(1)</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+</tr>
+<tr id="Ky">
+    <td>Ky</td>
+<td>
+    <span class="puff-puff">5K > 2H / (1)</span><hr>
+    <span class="puff-puff">6K(1) > 2H(1)</span><hr>
+    <span class="puff-puff">2P > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > f.S > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H(1) k*</span><hr>
+    <span class="puff-puff">2S > 5K > 2H</span><hr>
+    <span class="puff-puff">5K > 2P > 2H</span><hr>
+    <span class="puff-puff">c.S > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H / (1)</span><hr>
+    <span class="puff-puff">6K(1) > 2H(1)</span><hr>
+    <span class="puff-puff">2P > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > f.S > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 5K > 2H</span><hr>
+    <span class="puff-puff">5K > 2P > 2H</span><hr>
+    <span class="puff-puff">c.S > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H ONLY FULL</span><hr> 
+    <span class="puff-puff">6K > 2H / (1) ONLY FULL</span><hr>
+    <span class="puff-puff">2PP > c.S > 2H(1)</span><hr>
+    <span class="no-puff">c.S > f.S > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 6K > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 5K > 2H</span><hr>
+    <span class="puff-puff">5K > 2P > 2H</span><hr>
+    <span class="puff-puff">c.S 6P(1) > 2H(1) dl puff</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr>
+    <span class="puff-puff">6K > 2H / (1) CORNER</span><hr>
+    <span class="puff-puff">2PP > 2H(1) dl puff</span><hr>
+    <span class="puff-puff">dl c.S > f.S 2H(1) CORNER</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1) dl puff</span><hr>
+    <span class="puff-puff">2.S > 2H</span><hr>
+    <span class="puff-puff">2S > 5K > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">c.S > 6P(1) > 2H(1) dl puff</span>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H dl puff</span><hr>
+    <span class="puff-puff">j.PKS > 2H dl puff</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span><hr><span class="puff-puff">TEST</span><hr>
+    <span class="puff-puff">2PP > 2H / (1)</span><hr>
+    <span class="puff-puff">c.S > f.S > 2H(1) dl puff</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+    <span class="puff-puff">2S > 5K > 2H / (1)</span><hr>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">c.S > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">5P > c.S > 5H(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > 2H</span><hr>
+    <span class="puff-puff">2S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">2H</span>
+</td>
+</tr>
+<tr id="Leo">
+    <td>Leo</td>
+<td>
+    <span class="puff-puff">c.S > f.S > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">5K > 2H dl, dl puff</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > f.S > 2H(1)</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">5K > 2H dl</span><hr>
+    <span class="inconsistent">c.S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > f.S > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">6K > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">c.S > 5H(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">c.S > f.S > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">c.S > 6P(1) > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 6P(1) > 2H(1) dl puff</span><hr>
+</td>
+<td>
+    <span class="puff-puff">c.S > f.S > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">c.S > 2S > 2H(1) dl (dl puff)</span><hr>
+    <span class="puff-puff">5K > 2H dl (dl puff)</span><hr>
+</td>
+<td>
+    <span class="no-puff">5K > 5P > c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2H(1) dl</span><hr>
+    <span class="no-puff">2S > 2H</span><hr>
+    <span class="no-puff">5K > 2H dl</span>
+</td>
+<td>
+    <span class="inconsistent">-</span>
+</td>
+</tr>
+<tr id="May">
+    <td>May</td>
+<td>
+    <span class="puff-puff">5K > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">2P(P) > 2H(1) dl, dl puff</span><hr>
+    <span class="puff-puff">6K(1) > 2H(1) IAD</span><hr>
+    <span class="puff-puff">2S > 2H(1) IAD</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H(1)</span><hr>
+    <span class="puff-puff">6K(1) > 2H(1)</span><hr>
+    <span class="inconsistent">2S > 2H</span>
+</td>
+<td>
+    <span class="puff-puff">6K(1) > 2P > 2H(1)</span><hr>
+    <span class="inconsistent">2PP > 2H(1) dl, dl puff close</span>
+</td>
+<td> 
+    <span class="puff-puff">5K > 2H(1)</span><hr>
+    <span class="puff-puff">2PP > 2H(1)</span><hr>
+    <span class="puff-puff">2S > 2H</span><hr>
+</td>
+<td>
+    <span class="puff-puff">j.PPKS > 2H dl</span>
+</td>
+<td>
+    <span class="puff-puff">5K > 2H</span>
+</td>
+<td>
+    <span class="no-puff">5K > c.S > 2H(1)</span>
+</td>
+<td>
+    <span class="puff-puff">2S > 2H(1)</span>
+</td>
+<td>
+    <span class="no-puff">2H</span>
+</td>
+</tr>
+        </tbody>
+       </table>
            </body>
          </html>
 
