@@ -1,3 +1,0 @@
-def define_env(env):
-    env.variables['test_variable'] = 'Hello from macros.py!' # Keep this line
-    # ... (rest of your combo_widget macro) ...
