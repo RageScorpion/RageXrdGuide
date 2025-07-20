@@ -1,2 +1,2589 @@
-{% include "/characters/johnnycombo.html" %}
+
 <div id="custom-toc" class="custom-toc-container"></div>
+
+
+<div class="tabbed-widget-group">
+    <h2>PK Combos</h2>
+    <p><small>Difficulty is considered without the IAD c.Geki (<span class="notation move-K">956214K</span>) input. Ordered from most damaging routes to least damaging.</small></p>
+
+    <div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="iad-carded-geki" data-category="pk-combos">IAD Carded Geki</h2>
+    </div>
+
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'level1_content')">c.S f.S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'level2_content')">c.S</button>
+        <button class="tab-button" onclick="openTab(event, 'level3_content')">2S</button>
+        <button class="tab-button" onclick="openTab(event, 'level4_content')">c.S 2S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'level5_content')">6K(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'level6_content')">5K</button>
+        <button class="tab-button" onclick="openTab(event, 'level7_content')">2S 5K 2H</button>
+        <button class="tab-button" onclick="openTab(event, 'level8_content')">2P</button>
+        <button class="tab-button" onclick="openTab(event, 'level9_content')">2PP</button>
+    </div>
+
+    
+    <div id="level1_content" class="tab-content active">
+        <div class="combo-widget">
+            
+            <div class="main-"></div> <div class="combo-header">
+                <h3> c.S f.S 2H(1) <small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">f.S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 219</p>
+                    <p>Most damaging combo route without spending other resources<br> 66 after the <span class="notation move-K">956214K</span> is optional and only required if you're too far away.</br></p>
+                </div>
+    <div class="video-wrapper">
+    <div class="video-controls">
+        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/_g5phogoqis"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki c.S f.S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- END level1_content -->
+
+<div id="level2_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3> c.S <small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-S">c.S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 217</p>
+                    <p>Easy <span class="notation move-S">c.S</span> route, you can do both <span class="notation move-HS">2H</span> hits or go for <span class="notation move-HS">(1)</span> hit. Timings may vary if you go for double or (1) <span class="notation move-HS">2H</span> hit into 546<span class="notation move-P">P</span>~<span class="notation move-K">K</span><br> 66 after the <span class="notation move-K">956214K</span> is optional and only required if you're too far away.</br></p>
+                </div>
+                    <div class="video-wrapper">
+    <div class="video-controls">
+        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/vYzwAE7LORg"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki c.S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- END level2_content -->
+
+    <div id="level3_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 217</p>
+                    <p>Easy <span class="notation move-S">2S</span> route, you can do both <span class="notation move-HS">2H</span> hits or go for <span class="notation move-HS">(1)</span> hit. Timings may vary if you go for double or (1) <span class="notation move-HS">2H</span> hit into 546<span class="notation move-P">P</span>~<span class="notation move-K">K</span><br> 66 after the <span class="notation move-K">956214K</span> is optional and only required if you're too far away.</br></p>
+                </div>
+                    <div class="video-wrapper">
+    <div class="video-controls">
+        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/O43UhnVzeG4"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki 2S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+  <!-- END level3_content -->
+
+    <div id="level4_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S 2S 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 216</p>
+                    <p>Common <span class="notation move-S">c.S</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H(1)</span> route. Works on Johnny as well.<br> 66 after the <span class="notation move-K">956214K</span> is optional and only required if you're too far away.</br></p>
+                </div>
+      <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/Q2q-4uivNDE"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki c.S 2S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- END level4_content -->
+
+    <div id="level5_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>6K(1)<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-K">6K(1)</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 208</p>
+                    <p>Easy <span class="notation move-K">6K(1)</span> route, you can do both <span class="notation move-HS">2H</span> hits or go for <span class="notation move-HS">(1)</span> hit. Timings may vary if you go for double or (1) <span class="notation move-HS">2H</span> hit into 546<span class="notation move-P">P</span>~<span class="notation move-K">K</span><br> 66 after the <span class="notation move-K">956214K</span> is optional and only required if you're too far away.</br></p>
+                </div>
+      <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/lPL_rcPhudg"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki 6K(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- END level5_content -->
+
+<div id="level6_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>5K<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 205</p>
+                    <p>Easy <span class="notation move-K">5K</span> route, you can do both <span class="notation move-HS">2H</span> hits or go for <span class="notation move-HS">(1)</span> hit. Timings may vary if you go for double or (1) <span class="notation move-HS">2H</span> hit into 546<span class="notation move-P">P</span>~<span class="notation move-K">K</span><br> 66 after the <span class="notation move-K">956214K</span> is optional and only required if you're too far away.</br></p>
+                </div>
+      <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/MwrdBHS0-AQ"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki 5K.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- END level6_content -->
+
+    <div id="level7_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S 5K 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Hard">Hard</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-S">2S</span> > <span class="notat: 216ion move-K">5K</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span><span class="notation move-follow">~</span><span class="notation move-K">K</span> > <span class="notation move-S">236S</span><span class="notation move-follow">~</span><span class="notation move-S">S</span><span class="notation move-follow">~</span><span class="notation move-HS">H</span> > <span class="notation move-follw">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 204</p>
+                    <p>This is a bit of a harder combo as the dash after the IAD can be a bit tight to land <span class="notation move-S">2S</span> afterwards.<br>Less hard if you hit the opponent crounching.</br>
+                    </p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/zsO4CDRfg6s"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki 2S 5K 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+  <!-- END level7_content -->
+
+    <div id="level8_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div> <div class="combo-header">
+                <h3>2P<small> | Everywhere</small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-P">2P</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 199</p>
+                    <p>Easy <span class="notation move-P">2P</span> route, you can do both <span class="notation move-HS">2H</span> hits or go for <span class="notation move-HS">(1)</span> hit. Timings may vary if you go for double or (1) <span class="notation move-HS">2H</span> hit into 546<span class="notation move-P">P</span>~<span class="notation move-K">K</span><br> 66 after the <span class="notation move-K">956214K</span> is optional and only required if you're too far away.</br></p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/Q6TN20aOP6Q"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki 2P.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+  <!-- END level8_content -->
+
+    <div id="level9_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2PP<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-K">956214K</span> > <span class="notation move-P">2PP</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 178 / 181</p>
+                    <p>Easy <span class="notation move-P">2PP</span> route, you can do both <span class="notation move-HS">2H</span> hits or go for <span class="notation move-HS">(1)</span> hit. Timings may vary if you go for double or (1) <span class="notation move-HS">2H</span> hit into 546<span class="notation move-P">P</span>~<span class="notation move-K">K</span> <br> 66 after the <span class="notation move-K">956214K</span> is optional and only required if you're too far away.</br></span>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/9cFXc-HWEjw"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_c.geki/Johnny PK IAD c.Geki 2PP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+<!-- END level9_content -->
+</div>
+  
+
+<div style="margin-top: 40px;"></div>  
+ 
+<p><small>Difficulty is considered without the Kara c.Geki (<span class="notation move-S">236S</span><span class="notation move-K">214KK</span>) input. Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="kara-carded-geki" data-category="pk-combos">Kara Carded Geki</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget2_tab1_content')">c.S f.S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget2_tab2_content')">c.S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget2_tab3_content')">2S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget2_tab4_content')">c.S 2S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget2_tab5_content')">6K(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget2_tab6_content')">2S 5K 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget2_tab7_content')">5K</button>
+        <button class="tab-button" onclick="openTab(event, 'widget2_tab8_content')">2P</button>
+        <button class="tab-button" onclick="openTab(event, 'widget2_tab9_content')">2PP</button>
+    </div>
+
+    <div id="widget2_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S f.S 2H(1) <small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">f.S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 208</p>
+                    <p>{placeholder}.</p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/_Z86Ha9MZUg"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki c.S f.S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level1_content -->
+
+<div id="widget2_tab2_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-S">c.S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 202 / 206</p>
+                    <p>{placeholder}</p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/i-7Q4EEbKDk"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki c.S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level2_content -->
+
+    <div id="widget2_tab3_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 200 / 204</p>
+                    <p>{placeholder}</p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/Lk3P2QeOOjA"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki 2S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level3_content -->
+
+<div id="widget2_tab4_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S 2S 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 200 / 204</p>
+                    <p>{placeholder}</p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/c6zRXYdY2e8"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki c.S 2S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level4_content -->
+
+<div id="widget2_tab5_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>6K(1)<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-K">6K(1)</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 196</p>
+                    <p>{placeholder}</p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/NQmNr061C0o"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki 6K(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level5_content -->
+
+        <div id="widget2_tab6_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S 5K 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-S">2S</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 193</p>
+                    <p>{placeholder}</p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/kA6TmYvU9WA"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki 2S 5K 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+     <!-- END level6_content -->
+
+    <div id="widget2_tab7_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>5K<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 189 / 193</p>
+                    <p>{placeholder}</p>
+                </div>
+ <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/t7d1OpUQy54"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki 5K.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level7_content -->
+
+    <div id="widget2_tab8_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2P<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-P">2P</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 184 / 188</p>
+                    <p>{placeholder}</p>
+                </div>
+                 <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/-eb745_KcAs"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki 2P.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level8_content -->
+
+    <div id="widget2_tab9_content" class="tab-content">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2PP<small> | Everywhere </small></h3>
+                <span class="diff-Easy">Easy</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span><span class="notation move-K">214KK</span> > <span class="notation move-P">2PP</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 173</p>
+                    <p>{placeholder}</p>
+                </div>
+                 <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/0xYvGBw5VgY"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/kara_c.geki/Johnny PK Kara c.Geki 2PP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+  <!-- END level9_content -->
+
+<div style="margin-top: 40px;"></div>  
+
+<h2>  <!-- Header --> </h2>
+<p><small>Difficulty is considered without the IAD Geki (<span class="notation move-K">956214K</span>) input. Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="" data-category="pk-combos">IAD Geki</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget3_tab1_content')">f.S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab2_content')">c.S f.S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab3_content')">c.S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab4_content')">c.S 2S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab5_content')">2S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab6_content')">6K(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab7_content')">5K</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab8_content')">2S 5K 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab9_content')">2P</button>
+        <button class="tab-button" onclick="openTab(event, 'widget3_tab10_content')">2PP</button>
+    </div>
+
+    <div id="widget3_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>f.S<small> | Everywhere </small></h3>
+                <span class="diff-Hard">Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-S">f.S</span> > <span class="notation move-HS">2H</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 225</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                 <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/Bxif_FQOQFk"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki f.S Mid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level1_content -->
+
+        <div id="widget3_tab2_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S f.S 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">f.S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 223</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                 <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/8e9QkD0Lhj0"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki c.S f.S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level2_content -->
+
+            <div id="widget3_tab3_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-S">c.S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 223</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                 <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/w2R_GlOv0ic"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki c.S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level3_content -->
+
+            <div id="widget3_tab4_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S 2S 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 222</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                   <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/4xE1R0u6SQs"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki c.S 2S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level4_content -->
+
+            <div id="widget3_tab5_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 221</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                   <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/VwQGsMwtt48"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki 2S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level5_content -->
+   
+            <div id="widget3_tab6_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>6K(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-K">6K(1)</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 214</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                   <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/7u-lQDcFt38"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki 6K(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level6_content -->
+
+            <div id="widget3_tab7_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>5K<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 211</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                   <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/sTiQth93Xjc"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki 5K.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level7_content -->
+
+            <div id="widget3_tab8_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S 5K 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-S">2S</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 210</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                   <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/CUZn64u6hs4"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki 2S 5K 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level8_content -->
+
+            <div id="widget3_tab9_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2P<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-P">2P</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 205</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/_pioFomaFQY"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki 2P.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level9_content -->
+   
+    <div id="widget3_tab10_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2PP<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956214K</span> > <span class="notation move-P">2PP</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 184 / 187</p>
+                    <p>This combo is hard not cause of the execution but because of the way you have to hit <span class="notation move-S">f.S</span>. Most of the time, you will get <span class="notation move-S">c.S</span> instead cause you're too close. Be too far away and Zekkei will whiff. If you happen to get <span class="notation move-S">c.S</span>, you can go for other <span class="notation move-S">c.S</span> starter routes instead.<br><br> No delay for Zekkei is required, instead, you need to delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit so Jam will go a little bit more forward to catch Johnny as he will be too far away.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/zvH7FCKTiAY"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_geki/Johnny PK IAD Geki 2PP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level10_content -->
+</div>
+
+<div style="margin-top: 40px;"></div>  
+<h2></h2>
+<p><small><span class="notation move-HS">Note:</span> There are many other CH Puff routes for Johnny. I may add them later, but for now, I added the most common routes.<br>Difficulty is considered without the Hyappo Shinshou (<span class="notation move-S">236S</span><span class="notation move-follow">~</span><span class="notation move-S">S</span>) input. Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="ch-puff" data-category="pk-combos">CH Puff</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget4_tab1_content')">c.S f.S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget4_tab2_content')">c.S 2S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget4_tab3_content')">2S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget4_tab4_content')">c.S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget4_tab5_content')">6K(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget4_tab6_content')">2S 5K 2H</button>
+        <button class="tab-button" onclick="openTab(event, 'widget4_tab7_content')">5K</button>
+        <button class="tab-button" onclick="openTab(event, 'widget4_tab8_content')">2P</button>
+        <button class="tab-button" onclick="openTab(event, 'widget4_tab9_content')">2PP</button>
+    </div>
+
+    <div id="widget4_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S f.S 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">f.S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 200</p>
+                    <p>Most damaging CH Puff Route. Slight delay of Zekkei is needed to catch Johnny.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/2sY2cXjmJkY"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff c.S f.S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level1_content -->
+
+   <div id="widget4_tab2_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S 2S 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 198</p>
+                    <p>Slight delay of Zekkei is needed to catch Johnny. <span class="notation move-S">f.S</span> instead of <span class="notation move-S">c.S</span> is possible and follows the same route.</p>
+                </div>
+                      <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/p7S6DKfKwFA"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff 2S 5K 2H.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level2_content -->
+
+   <div id="widget4_tab3_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 198</p>
+                    <p>Slight delay of Zekkei is needed to catch Johnny. <span class="notation move-S">f.S</span> instead of <span class="notation move-S">c.S</span> is possible and follows the same route.</p>
+                </div>
+                      <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/lsKWcA4zGiQ"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff 2S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level3_content -->
+
+   <div id="widget4_tab4_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">c.S</span> > <span class="notation move-HS">2H</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 196</p>
+                    <p>Most steady route, works always.</p>
+                </div>
+                      <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/28flfbCA_sc"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff c.S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level4_content -->
+
+   <div id="widget4_tab5_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>6K(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-K">6K(1)</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 188 / 190</p>
+                    <p>Fullscreen, hard timing but durable, dash in deep.<br>For the corner, hit Johnny close.<br><br> For corner 1-Hit, when hitting CH <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>, you have to hit Johnny before he reaches the ground for the 1-Hit route to work.</p>
+                </div>
+                      <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/HFarECTS3Tc"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff 6K(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level5_content -->
+
+   <div id="widget4_tab6_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S 5K 2H<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 186 / 188</p>
+                    <p>Always works, needs a delay Zekkei for it to work.</p>
+                </div>
+                      <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/p7S6DKfKwFA"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff 2S 5K 2H.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level6_content -->
+
+    <div id="widget4_tab7_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>5K<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 185 / 187</p>
+                    <p>When hitting CH <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> from midscreen, you have to dash in really deep for the <span class="notation move-K">5K</span> double hit to work.<br><br> For the corner route, both double and 1-Hit need to be done before Johnny hits the ground.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/qrWmIrRP0Cc"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff 5K.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level7_content -->
+
+    <div id="widget4_tab8_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2P<small> | Everywhere </small></h3>
+                <span class="diff-Medium-Hard">Medium-Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-P">2P</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 181 / 183</p>
+                    <p>For midscreen, <span class="notation move-P">2P</span> needs to be spaced right above Johnny's feet so Zekkei will land into his hurtbox.<br><br> For the corner route, you need to dash in deep, but not too deep. Seems not possible after certain frames.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/5oIjfiSmwmg"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff 2P.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level8_content -->
+
+    <div id="widget4_tab9_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2PP<small> | Everywhere </small></h3>
+                <span class="diff-Medium-Hard">Medium-Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">236S</span>~<span class="notation move-S">S</span> > <span class="notation move-follow">66</span> > <span class="notation move-P">2P</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 168 / 170</p>
+                    <p>For the double hit both on midscreen and corner routes, you need to space right above Johnny's feet so Zekkei will land into his hurtbox.<br><br>The 1-Hit route needs to be dashed in deep, otherwise the follow-up of Zekkei, 546<span class="notation move-P">P</span>~<span class="notation move-K">K</span>, will whiff.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/ufZT3w037Kw"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_puff/Johnny PK CH Puff 2PP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level9_content -->
+</div>
+
+<div style="margin-top: 40px;"></div>  
+<h2>  <!-- Header --></h2>
+<p><small>Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="grab-rrc" data-category="pk-combos">Grab RRC</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget5_tab1_content')">c.S f.S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget5_tab2_content')">c.S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget5_tab3_content')">c.S 2S 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget5_tab4_content')">2S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget5_tab5_content')">6K(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget5_tab6_content')">5K</button>
+        <button class="tab-button" onclick="openTab(event, 'widget5_tab7_content')">2S 5K 2H</button>
+        <button class="tab-button" onclick="openTab(event, 'widget5_tab8_content')">2P</button>
+        <button class="tab-button" onclick="openTab(event, 'widget5_tab9_content')">2PP</button>
+    </div>
+
+    <div id="widget5_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S f.S 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">f.S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 200</p>
+                    <p>A delay of <span class="notation move-S">c.S</span> and Zekkei is needed for the combo to work.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/UxyUe6IyRwg"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC c.S f.S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level1_content -->
+
+    <div id="widget5_tab2_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">f.S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 195 / 198</p>
+                    <p>For fullscreen 2-Hit and corner 1-Hit, no delay is needed, no delay Zekkei.<br> For corner 2-Hit, you need to delay <span class="notation move-S">c.S</span>, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/2SlHgSruols"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC c.S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+<!-- END level2_content -->
+
+    <div id="widget5_tab3_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S 2H 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-S">c.S</span> > <span class="notation move-S">f.S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 197</p>
+                    <p>A delay of <span class="notation move-S">c.S</span> is needed. No delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/oo1MiaI0tK8"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC c.S 2S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level3_content -->
+  
+     <div id="widget5_tab4_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 193 / 196</p>
+                    <p>For fullscreen, hit <span class="notation move-S">2S</span> as soon as possible, no delay Zekkei.<br> Corner delay <span class="notation move-S">2S</span> a bit, no delay Zekkei.<br><br> Corner 1-Hit no delay <span class="notation move-S">2S</span>. In case it is delayed, go for 2-Hit route instead.</span> a tiny bit, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/muP0TwbGnlg"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC 2S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level4_content -->
+
+     <div id="widget5_tab5_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>6K(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-K">6K(1)</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 185 / 188</p>
+                    <p>For fullscreen and Corner, hit <span class="notation move-K">6K(1)</span> as soon as possible, no delay Zekkei.<br> Corner 1-Hit delay <span class="notation move-K">6K(1)</span> a tiny bit, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/Bos3Ndxp6hQ"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC 2S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level5_content -->
+
+      <div id="widget5_tab6_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>5K<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 182 / 185</p>
+                    <p>For fullscreen, no delay required, if delayed, delay Zekkei.<br> Corner, no delay, no delay Zekkei.<br><br>Fullscreen 1-Hit, delay <span class="notation move-P">P</span>~<span class="notation move-K">K</span> a bit so Johnny gets low making sure he goes into the corner for extension and corner carry.<br> Corner 1-Hit, no delay Zekkei is required but can work.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/NBaUujJLX-w"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC 5K.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level6_content -->
+
+     <div id="widget5_tab7_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S 5K 2H<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-S">c.S</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 181 / 185</p>
+                    <p>For fullscreen and Corner, no delay required, if delayed, delay Zekkei.<br>Fullscreen 1-Hit, hit <span class="notation move-S">2S</span> as soon as possible, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/W0SRBstXEkU"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC 2S 5K 2H.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level7_content -->
+
+     <div id="widget5_tab8_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2P<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-P">2P</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 177 / 180</p>
+                    <p>For fullscreen, press <span class="notation move-P">2P</span> as soon as possible, delay Zekkei.<br>Corner 1 and 2-Hit, delay <span class="notation move-P">2P</span> a bit, no delay Zekkei.<br><br>Fullscreen 1-Hit, press <span class="notation move-P">2P</span> as soon as possible, no delay Zekkei, delay <span class="notation move-S">236S</span>~<span class="notation move-S">S</span> a bit otherwise Johnny will go the other way after <span class="notation move-HS">HS</span> Puff.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/yu-7WREk-r0"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC 2P.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level8_content -->
+
+     <div id="widget5_tab9_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2PP<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">4 / 6HS</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">22X</span> > <span class="notation move-S">c.S</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 181 / 185</p>
+                    <p>For fullscreen, delay <span class="notation move-P">2PP</span> a bit, delay <span class="notation move-S">236S</span> into <span class="notation move-S">S</span> a bit so Jam will move a bit more forward catching Johnny.<br> Corner, delay <span class="notation move-P">2PP</span> almost hitting the ground, delay Zekkei a bit.<br><br>For both fullscreen and corner 1-Hit, a tiny delay <span class="notation move-P">2PP</span>, delay Zekkei a bit.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/W0SRBstXEkU"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/grab_rrc/Johnny PK Grab RRC 2S 5K 2H.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level9_content -->
+
+</div>
+
+
+<div style="margin-top: 40px;"></div>  
+<h2> <!-- Header --></h2>
+<p><small>Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="ch-f.s" data-category="pk-combos">CH f.S</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget6_tab1_content')">j.PKS</button>
+        <button class="tab-button" onclick="openTab(event, 'widget6_tab2_content')">j.PPKS</button>
+        <button class="tab-button" onclick="openTab(event, 'widget6_tab3_content')">6P(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget6_tab4_content')">Extension</button>
+    </div>
+
+     <div id="widget6_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>j.PKS<small> | Everywhere </small></h3>
+                <span class="diff-Hard">Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">f.S</span> > 956 > j.<span class="notation move-P">P</span><span class="notation move-K">K</span><span class="notation move-S">S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > (Card) / <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 165 / 200</p>
+                    <p>For fullscreen, delay j.<span class="notation move-P">P</span>,<span class="notation move-K">K</span>,<span class="notation move-S">S</span> and delay Zekkei.<br> Can't get 66 > <span class="notation move-S">2S</span> for fullscreen 2-Hit, card charge is adviced instead.<br> A combo extension would be <span class="notation move-S">f.S</span> > TK <span class="notation move-K">Ryuujin</span> into a charged card. </p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/QPHU80ZNChk"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_f.s/Johnny PK CH f.S j.PKS.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level1_content -->
+
+     <div id="widget6_tab2_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>j.PPKS<small> | Everywhere </small></h3>
+                <span class="diff-Hard">Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">f.S</span> > 956 > j.<span class="notation move-P">PP</span><span class="notation move-K">K</span><span class="notation move-S">S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > (Card) / <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 160 / 158</p>
+                    <p>For fullscreen, delay Zekkei a bit more, will OTG after <span class="notation move-HS">HS</span> Puffball.<br>For the fullscreen 1-Hit and corner route, you need to delay j.<span class="notation move-K">K</span> and/or j.<span class="notation move-S">S</span> to have Johnny low to the ground, delay Zekkei a bit.<br><br>Can't get 66 > <span class="notation move-S">2S</span>, card charge is adviced instead, this counts for every route.<br> A combo extension would be <span class="notation move-S">f.S</span> > TK <span class="notation move-K">Ryuujin</span> into a charged card. 
+                    </p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/BP0AQyXaJSs"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_f.s/Johnny PK CH f.S j.PPKS.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level2_content -->
+
+      <div id="widget6_tab3_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>6P(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium-Hard">Medium-Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-S">f.S</span> > 956 > j.<span class="notation move-P">PP</span><span class="notation move-K">K</span><span class="notation move-S">S</span> > <span class="notation move-P">6P(1)</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">22X</span></code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 156</p>
+                    <p>Fullscreen, delay Zekkei.<br>For the corner route, delay j.<span class="notation move-S">S</span> a bit, delay Zekkei.<br><br>Can't get 66 > <span class="notation move-S">2S</span>, card charge is adviced instead, this counts for every route.<br> A combo extension would be <span class="notation move-S">f.S</span> > TK <span class="notation move-K">Ryuujin</span> into a charged card.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/BP0AQyXaJSs"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_f.s/Johnny PK CH f.S j.PPKS 6P(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level3_content -->
+
+      <div id="widget6_tab4_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>Extension<small> | Everywhere </small></h3>
+                <span class="diff-Medium-Hard">Medium-Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-follow">...</span> > <span class="notation move-K">2369K</span> > Carded Move</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 186</p>
+                    <p>Example video of TK <span class="notation move-K">Ryuujin</span> combo extenstion.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/dk1YWQpKaRk"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/ch_f.s/Johnny PK CH f.S TK Extension.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!-- END level4_content -->
+</div>
+
+
+<div style="margin-top: 40px;"></div>  
+<h2> <!-- Header --></h2>
+<p><small>Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="2d-rrc" data-category="pk-combos">2D RRC</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget7_tab1_content')">c.S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget7_tab2_content')">2S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget7_tab3_content')">6P(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget7_tab4_content')">6K(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget7_tab5_content')">2S 5K 2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget7_tab6_content')">5K</button>
+        <button class="tab-button" onclick="openTab(event, 'widget7_tab7_content')">2K</button>
+        <button class="tab-button" onclick="openTab(event, 'widget7_tab8_content')">2P</button>
+        <button class="tab-button" onclick="openTab(event, 'widget7_tab9_content')">2PP</button>
+    </div>
+
+    <div id="widget7_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">c.S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 177</p>
+                    <p>Fullscreen, dash in as deep as possible, that way you get lot of corner carry and puff stays in the corner, no delay Zekkei.<br>For corner, you have to delay Zekkei a bit.<br><br> Fullscreen 1-Hit, Fast <span class="notation move-S">c.S</span> hit, will throw Johnny the other way of the screen.<br> Corner 1-Hit, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/6gW_pu8YmvI"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC c.S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level1_content -->
+
+
+    <div id="widget7_tab2_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 177</p>
+                    <p>Fullscreen, dash in as deep as possible, that way you get lot of corner carry and puff stays in the corner, no delay Zekkei.<br>Corner, delay Zekkei a bit.<br><br>Fullscreen 1-hit, fast <span class="notation move-S">2S</span> hit, will throw Johnny the other way of the screen.<br> Corner 1-Hit, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/6gW_pu8YmvI"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC 2S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level3_content --> 
+
+      <div id="widget7_tab3_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>6P(1)<small> | Corner </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-P">6P(1)</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 171</p>
+                    <p>No delay required.<br> <span class="notation move-HS">Note:</span> this route is Corner only.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/VTVY9MpaYTs"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC 6P(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level3_content -->
+
+
+    <div id="widget7_tab4_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>6K(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-K">6K(1)</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 170</p>
+                    <p>Fullscreen both 2 and 1-Hit, fast <span class="notation move-K">6K(1)</span> hit, no delay Zekkei, will throw Johnny the other way of the screen.<br>For corner, don't dash too far, space it so you will hit Johnny's feet with Zekkei.<br><br> Corner 1-Hit, needs a deep dash for the route to work.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/C1gEG9EHnZc"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC 6K(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level4_content -->
+
+    <div id="widget7_tab5_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S 5K 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 168</p>
+                    <p>Fullscreen, dash in as deep as possible, that way you get lot of corner carry and puff stays in the corner, delay Zekkei a bit.<br>For corner, you have to delay Zekkei a bit. </p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/sYSzir_4HSU"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC 2S 5K 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level5_content -->
+
+    <div id="widget7_tab6_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>5K<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-K">5K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 167</p>
+                    <p>Fullscreen, dash in as deep as possible, that way you get lot of corner carry and puff stays in the corner, no delay Zekkei.<br>Corner, you have to delay Zekkei a bit.<br><br> Fullscreen 1-Hit needs a fast <span class="notation move-K">5K</span> hit, no delay Zekkei, fullscreen will throw Johnny the other way of the screen.<br> Corner 1-Hit also needs a fast <span class="notation move-K">5K</span> hit, however, don't dash in too deep, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/9RCVBucZ7zg"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC 5K.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level6_content -->
+
+    <div id="widget7_tab7_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2K<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-K">2K</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 164</p>
+                    <p>Fullscreen, dash in as deep as possible, that way you get lot of corner carry and puff stays in the corner, no delay Zekkei.<br>Corner, no delay Zekkei.<br><br> Corner 1-Hit, dash in deep, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/HG7BzTyY2jU"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC 2K.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level7_content -->
+
+    <div id="widget7_tab8_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2P<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-P">2P</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 163</p>
+                    <p>Fullscreen, dash in as deep as possible, that way you get lot of corner carry and puff stays in the corner, no delay Zekkei.<br>Corner, delay and without Zekkei works both.<br><br> Fullscreen and corner 1-Hit, dash in a bit, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/8oati8AdK5M"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC 2P.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level8_content -->
+
+    <div id="widget7_tab9_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2PP<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-D">2D</span> > <span class="notation move-HS">RRC</span> > <span class="notation move-follow">66</span> > <span class="notation move-P">6P(1)</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 147 / 150</p>
+                    <p>Fullscreen, dash in as deep as possible, that way you get lot of corner carry and puff stays in the corner, no delay Zekkei.<br>Corner, no delay Zekkei.<br><br> Corner 1-Hit, dash in deep, no delay Zekkei.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/9I7Nv9u_piw"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/2d_rrc/Johnny PK 2D RRC 2PP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level9_content -->
+
+</div>
+
+
+<div style="margin-top: 40px;"></div>  
+<h2>  <!-- Header --></h2>
+<p><small>Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="superpuff" data-category="pk-combos">Super Puff</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget8_tab1_content')">5K c.S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget8_tab2_content')">c.S</button>
+        <button class="tab-button" onclick="openTab(event, 'widget8_tab3_content')">2S</button>
+    </div>
+
+    <div id="widget8_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>5K c.S<small> | Corner </small></h3>
+                <span class="diff-Very-Hard">Very Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">632146HS</span> > <span class="notation move-K">5K</span> > <span class="notation move-S">c.S</span> > <span class="notation move-HS">2HS</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > <span cla > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 216 </p>
+                    <p>Delay <span class="notation move-K">5K</span> to <span class="notation move-S">c.S</span> with a minimum of 2F and a maximum of 5F.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/lcoEm6EqISc"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/superpuff/Johnny PK SuperPuff 5K c.S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level1_content -->
+
+    <div id="widget8_tab2_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S<small> | Corner </small></h3>
+                <span class="diff-Medium-Hard">Medium-Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">632146HS</span> > <span class="notation move-K">5K</span> > <span class="notation move-P">5P</span> > <span class="notation move-S">c.S</span> > <span class="notation move-HS">2HS</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > <span cla > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 208 </p>
+                    <p><span class="notation move-K">5K</span> > <span class="notation move-P">5P</span> into <span class="notation move-S">c.S</span> routing.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/o6cmqOxkakg"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/superpuff/Johnny PK SuperPuff c.S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level2_content -->
+
+    <div id="widget8_tab3_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2S<small> | Corner </small></h3>
+                <span class="diff-Medium-Hard">Medium-Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-HS">632146HS</span> > <span class="notation move-K">5K</span> > <span class="notation move-P">5P</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2HS</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > <span cla > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 207 </p>
+                    <p><span class="notation move-K">5K</span> > <span class="notation move-P">5P</span> into <span class="notation move-S">2S</span> routing.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/GfI3OC5bTr8"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/superpuff/Johnny PK SuperPuff 2S.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level3_content -->
+
+</div>
+
+
+<div style="margin-top: 40px;"></div>  
+<h2><!-- Header --></h2>
+<p><small>Difficulty is considered with the IAD Kenroukaku/DP (<span class="notation move-K">956236K</span>) input. Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="iad-dp" data-category="pk-combos">IAD DP</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget9_tab1_content')">2H(1)</button>
+        <button class="tab-button" onclick="openTab(event, 'widget9_tab2_content')">c.S f.S 2H(1)</button>
+    </div>
+
+    <div id="widget9_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Very-Hard">Very Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956236K</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">22X</span></code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 155</p>
+                    <p>Only route so far that won't OTG after PuffPuff</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/xyQS-AgZdC8"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_dp/Johnny PK IAD DP 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level1_content -->
+
+    <div id="widget9_tab2_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>c.S f.S 2H(1)<small> | Everywhere </small></h3>
+                <span class="diff-Very-Hard">Very Hard</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-K">956236K</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">c.S</span> > <span class="notation move-HS">f.S</span> > <span class="notation move-HS">2H(1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">22X</span></code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 159</p>
+                    <p>Most damaging route, will OTG after <span class="notation move-HS">HS</span> Puff.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/g1uS5tJfb-U"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/iad_dp/Johnny PK IAD DP c.S f.S 2H(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level2_content -->
+
+</div>
+
+
+<div style="margin-top: 40px;"></div>  
+<h2>  <!-- END level2_content --></h2>
+<p><small>Ordered from most damaging routes to least damaging.</small></p>
+
+<div class="tabbed-widget-group">
+    <div class="midscreen-bnbs-heading">
+        <h2 id="j.d-low" data-category="pk-combos">j.D Low</h2>
+    </div>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'widget10_tab1_content')">2H</button>
+    </div>
+
+    <div id="widget10_tab1_content" class="tab-content active">
+        <div class="combo-widget">
+            <div class="main-"></div>
+            <div class="combo-header">
+                <h3>2H<small> | Everywhere </small></h3>
+                <span class="diff-Medium">Medium</span>
+            </div>
+            <div class="combo-route">
+                 <code><span class="notation move-follow">956</span> > j.<span class="notation move-D">D / (1)</span> > <span class="notation move-HS">2H / (1)</span> > <span class="notation move-follow">546</span><span class="notation move-P">P</span>~<span class="notation move-K">K</span> > <span class="notation move-S">236S</span>~<span class="notation move-S">S</span>~<span class="notation move-HS">H</span> > <span class="notation move-follow">66</span> > <span class="notation move-S">2S</span> > <span class="notation move-HS">2H</span> > ender (<span class="notation move-P">546PP</span> / <span class="notation move-HS">236236H</span>~<span class="notation move-P">P</span>)</code>
+            </div>
+            <div class="combo-body-layout">
+                <div class="combo-text-details">
+                    <p>Damage: 211 / 220</p>
+                    <p>Low j.<span class="notation move-D">D / (1)</span> route into <span class="notation move-HS">2H / (1)</span>.<br> Use 1-Hit <span class="notation move-HS">2H</span> if you're fullscreen.<br> you can do 2-Hit when you're near the corner.<br> The damage stays the same, but you will get more hits.</p>
+                </div>
+                    <div class="video-wrapper">  <div class="video-controls">
+                        <button class="video-source-button active" onclick="switchVideoSource(this, 'youtube')">YouTube</button>
+                        <button class="video-source-button" onclick="switchVideoSource(this, 'local')">Local Video</button>
+                    </div>
+    <div class="video-container youtube-video active">
+        <iframe width="280" src="https://www.youtube.com/embed/r9685vOm35Q"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container local-video">
+        <video width="280" controls>
+            <source src="/video/johnny/j.d_low/Johnny PK j.D 2H.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+  <!-- END level1_content -->   
+</div>

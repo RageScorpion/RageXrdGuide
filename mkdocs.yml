@@ -1,5 +1,5 @@
-site_name: Rage Xrd Guide
-site_url: https://RageScorpion.github.io/RageXrdGuide
+site_name: Rage Xrd Guide test
+site_url: https://RageScorpion.github.io/RageXrdGuide/
 markdown_extensions:
   - attr_list # Often useful for CSS classes in Markdown
   - md_in_html # Allows Markdown inside HTML blocks
