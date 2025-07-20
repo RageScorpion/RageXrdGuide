@@ -28,29 +28,29 @@ class: combosindex
 </div>
 
 <div class="character-shortcuts">
-    <a href="#Answer"><img src="/images/Answer.png" alt="Answer" title="Answer"></a> 
-    <a href="#Axl"><img src="/images/Axl.png" alt="Axl" title="Axl"></a> 
-    <a href="#Baiken"><img src="/images/Baiken.png" alt="Baiken" title="Baiken"></a> 
-    <a href="#Bedman"><img src="/images/Bedman.png" alt="Bedman" title="Bedman"></a> 
-    <a href="#Chipp"><img src="/images/Chipp.png" alt="Chipp" title="Chipp"></a> 
-    <a href="#Dizzy"><img src="/images/Dizzy.png" alt="Dizzy" title="Dizzy"></a> 
-    <a href="#Elphelt"><img src="/images/Elphelt.png" alt="Elphelt" title="Elphelt"></a> 
-    <a href="#Faust"><img src="/images/Faust.png" alt="Faust" title="Faust"></a>  
-    <a href="#I-No"><img src="/images/I-No.png" alt="I-No" title="I-No"></a> 
-    <a href="#Jack-O"><img src="/images/Jack-O.png" alt="Jack-O" title="Jack-O"></a>
-    <a href="#Jam"><img src="/images/Jam.png" alt="Jam" title="Jam"></a>
-    <a href="#Johnny"><img src="/images/Johnny.png" alt="Johnny" title="Johnny"></a>
-    <a href="#Kum"><img src="/images/Kum.png" alt="Kum" title="Kum"></a>
-    <a href="#Ky"><img src="/images/Ky.png" alt="Ky" title="Ky"></a>
-    <a href="#Leo"><img src="/images/Leo.png" alt="Leo" title="Leo"></a>
-    <a href="#May"><img src="/images/May.png" alt="May" title="May"></a>
+    <a href="#Answer"><img src="/RageXrdGuide/images/Answer.png" alt="Answer" title="Answer"></a> 
+    <a href="#Axl"><img src="/RageXrdGuide/images/Axl.png" alt="Axl" title="Axl"></a> 
+    <a href="#Baiken"><img src="/RageXrdGuide/images/Baiken.png" alt="Baiken" title="Baiken"></a> 
+    <a href="#Bedman"><img src="/RageXrdGuide/images/Bedman.png" alt="Bedman" title="Bedman"></a> 
+    <a href="#Chipp"><img src="/RageXrdGuide/images/Chipp.png" alt="Chipp" title="Chipp"></a> 
+    <a href="#Dizzy"><img src="/RageXrdGuide/images/Dizzy.png" alt="Dizzy" title="Dizzy"></a> 
+    <a href="#Elphelt"><img src="/RageXrdGuide/images/Elphelt.png" alt="Elphelt" title="Elphelt"></a> 
+    <a href="#Faust"><img src="/RageXrdGuide/images/Faust.png" alt="Faust" title="Faust"></a>  
+    <a href="#I-No"><img src="/RageXrdGuide/images/I-No.png" alt="I-No" title="I-No"></a> 
+    <a href="#Jack-O"><img src="/RageXrdGuide/images/Jack-O.png" alt="Jack-O" title="Jack-O"></a>
+    <a href="#Jam"><img src="/RageXrdGuide/images/Jam.png" alt="Jam" title="Jam"></a>
+    <a href="#Johnny"><img src="/RageXrdGuide/images/Johnny.png" alt="Johnny" title="Johnny"></a>
+    <a href="#Kum"><img src="/RageXrdGuide/images/Kum.png" alt="Kum" title="Kum"></a>
+    <a href="#Ky"><img src="/RageXrdGuide/images/Ky.png" alt="Ky" title="Ky"></a>
+    <a href="#Leo"><img src="/RageXrdGuide/images/Leo.png" alt="Leo" title="Leo"></a>
+    <a href="#May"><img src="/RageXrdGuide/images/May.png" alt="May" title="May"></a>
 <div class="table-scroll-container">
     <div class="table-scroll">
         <div class="table-scroll-content"></div>
     </div>
 </div>
 
-{% include "/pktable.html" %}
+{% include "/RageXrdGuide/pktable.html" %}
            </body>
          </html>
 
