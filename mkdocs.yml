@@ -1,5 +1,5 @@
 site_name: Rage Xrd Guide
-
+site_url: https://RageScorpion.github.io/RageXrdGuide
 markdown_extensions:
   - attr_list # Often useful for CSS classes in Markdown
   - md_in_html # Allows Markdown inside HTML blocks
@@ -67,17 +67,17 @@ repo_name: GitHub  # This sets the text next to the icon
 edit_uri: ""
 
 extra_css:
-  - navigation.css
-  - /template/template_combowidget.css
-  - /characters.css
-  - /pktable.css
+  - /RageXrdGuide/navigation.css
+  - /RageXrdGuide/template/template_combowidget.css
+  - /RageXrdGuide/characters.css
+  - /RageXrdGuide/pktable.css
 
 
 extra_javascript:
-  - javascripts/navitoggle.js
-  - javascripts/combowidget.js
-  - javascripts/tableloader.js  
-  - javascripts/tabletoggle.js
+  - /RageXrdGuide/javascripts/navitoggle.js
+  - /RageXrdGuide/javascripts/combowidget.js
+  - /RageXrdGuide/javascripts/tableloader.js  
+  - /RageXrdGuide/javascripts/tabletoggle.js
 
 remote_name: origin 
 remote_branch: gh-pages 
