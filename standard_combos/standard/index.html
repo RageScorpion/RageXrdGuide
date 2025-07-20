@@ -16,7 +16,7 @@
     
     
       
-        <title>Characters - Rage Xrd Guide</title>
+        <title>Standard - Rage Xrd Guide</title>
       
     
     
@@ -46,6 +46,10 @@
     
       <link rel="stylesheet" href="/template/template_combowidget.css">
     
+      <link rel="stylesheet" href="../../characters.css">
+    
+      <link rel="stylesheet" href="../../pktable.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -73,6 +77,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#macro-rendering-error" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -106,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Characters
+              Standard
             
           </span>
         </div>
@@ -196,7 +205,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../home/" class="md-tabs__link">
         
   
     
@@ -215,7 +224,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../combos/pages/standard_combos/standard/" class="md-tabs__link">
+        <a href="../../standard/" class="md-tabs__link">
           
   
   Combos
@@ -285,7 +294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../home/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -338,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../combos/pages/standard_combos/standard/" class="md-nav__link">
+      <a href="../../standard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -358,7 +367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../combos/pages/pk_list/pk_list/" class="md-nav__link">
+      <a href="../../pk_list/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -394,23 +403,22 @@
                   
 
 
-  <h1>Characters</h1>
-
-<div class="character-grid">
-    <a href="chipp/" class="character-icon-link">
-        <img src="/images/chippsmall.avif" alt="Chipp Zanuff" class="character-icon">
-        <span class="character-name">Chipp Zanuff</span>
-    </a>
-    <a href="elphelt/" class="character-icon-link">
-        <img src="/images/elpheltsmall.avif" alt="Elphelt Valentine" class="character-icon">
-        <span class="character-name">Elphelt Valentine</span>
-    </a>
-    <a href="johnny/" class="character-icon-link">
-        <img src="/images/johnnysmall.avif" alt="Johnny" class="character-icon">
-        <span class="character-name">Johnny</span>
-    </a>
-</div>
-<p><link rel="stylesheet" href="/characters/characters.css"></p>
+<h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
+<p><em>File</em>: <code>standard_combos/standard.md</code></p>
+<p><em>TemplateNotFound</em>: /combos/pages/standard_combos/standard.html</p>
+<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
+  File &quot;/usr/lib/python3/dist-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
+    return md_template.render(**page_variables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3/dist-packages/jinja2/environment.py&quot;, line 1301, in render
+    self.environment.handle_exception()
+  File &quot;/usr/lib/python3/dist-packages/jinja2/environment.py&quot;, line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File &quot;&lt;template&gt;&quot;, line 6, in top-level template code
+  File &quot;/usr/lib/python3/dist-packages/jinja2/loaders.py&quot;, line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /combos/pages/standard_combos/standard.html
+</code></pre></div>
 
 
 
@@ -471,7 +479,11 @@
       
         <script src="../../javascripts/navitoggle.js"></script>
       
-        <script src="/combos/javascripts/combowidget.js"></script>
+        <script src="../../javascripts/combowidget.js"></script>
+      
+        <script src="../../javascripts/tableloader.js"></script>
+      
+        <script src="../../javascripts/tabletoggle.js"></script>
       
     
   </body>
