@@ -1,4 +1,4 @@
-#!/home/sem/Projects/mkfighting-guide/venv/bin/python3
+#!/home/sem/Project/RageXrdGuide/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

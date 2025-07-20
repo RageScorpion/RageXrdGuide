@@ -1,6 +1,5 @@
 Markdown==3.7
 MarkupSafe==3.0.1
-mkdocs==1.6.1
 mkdocs-get-deps==0.2.0
 mkdocs-minify-plugin==0.8.0
 #mkdocs-section-index==0.3.9

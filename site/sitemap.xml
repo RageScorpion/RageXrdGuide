@@ -1,3 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://RageScorpion.github.io/RageXrdGuide/</loc>
+         <lastmod>2025-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://RageScorpion.github.io/RageXrdGuide/chipp/</loc>
+         <lastmod>2025-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://RageScorpion.github.io/RageXrdGuide/elphelt/</loc>
+         <lastmod>2025-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://RageScorpion.github.io/RageXrdGuide/johnny/</loc>
+         <lastmod>2025-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://RageScorpion.github.io/RageXrdGuide/pk_list/</loc>
+         <lastmod>2025-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://RageScorpion.github.io/RageXrdGuide/standard/</loc>
+         <lastmod>2025-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
